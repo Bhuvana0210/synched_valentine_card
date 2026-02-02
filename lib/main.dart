@@ -253,7 +253,7 @@ class _MyValentineState extends State<MyValentine> {
 
                                   // Main text
                                   Text(
-                                    'Daerest,',
+                                    'Dearest LOVEE,',
                                     textAlign: TextAlign.center,
                                     style: TextStyle(
                                       fontSize: isSmallScreen ? 22 : 24,
