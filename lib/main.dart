@@ -253,7 +253,7 @@ class _MyValentineState extends State<MyValentine> {
 
                                   // Main text
                                   Text(
-                                    'Dear Flexxx,',
+                                    'Daerest,',
                                     textAlign: TextAlign.center,
                                     style: TextStyle(
                                       fontSize: isSmallScreen ? 22 : 24,
@@ -314,11 +314,10 @@ class _MyValentineState extends State<MyValentine> {
                                                     context,
                                                     MaterialPageRoute(
                                                       builder: (context) =>
-                                                          const HeSaidYes(
-                                                            message:
-                                                                "You said YESS! 💖, well you have no option!"),
-                                                    ),
-                                                  );
+                                                        const HeSaidYes(
+                                                                message: "You said YESS! 💖...\n(well you have no option!)"),
+                                                                    ),
+                                                                  );
                                                 } catch (e) {
                                                   ScaffoldMessenger.of(context)
                                                       .showSnackBar(
